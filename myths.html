@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Activist Toolkit - JAIMIN</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Link the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style_general.css" />
+    <link rel="stylesheet" href="/style_myth_btn.css" />
+    <link rel="stylesheet" href="/style_mq.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap" rel="stylesheet">
+
+    <!-- Link the webpage's JavaScript file -->
+    <script src="/script_myths.js" defer></script>
+
+  </head>
+
+<body>
+
+  <header>
+
+    <!-- Navigation Bar of Myths Page -->
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="myths.html">Myths</a>
+        </li>
+        <li>
+          <a href="take-action.html">Take Action</a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Title of Myths Page -->
+    <h1>Let's debunk the myths.</h1>
+
+  </header>
+
+<main>
+
+    <!-- Subheading #1 of Myths Page -->
+  <h2>
+    <span class="pc-text">Drag and drop each fact to the corresponding myth you think it debunks.</span>
+    <span class="phone-text">Read over the myths and facts, and note down which fact you think debunks which myth.</span>
+  </h2>
+
+  <div class="dropBoxesContainer">
+
+    <!-- Myths Drop Boxes on Myths Page -->
+    <div id="dropBox1" class="dropBox" 
+         ondrop="droppoint(event)" 
+         ondragover="allowDropOption(event)">
+      1. Myth - Homeless people aren’t putting in the effort to get a job or find a place to live.
+    </div>
+
+    <div id="dropBox2" class="dropBox" 
+         ondrop="droppoint(event)" 
+         ondragover="allowDropOption(event)">
+      2. Myth - To qualify for housing, homeless people should be required to adhere to strict conditions, such as being sober.
+    </div>
+
+    <div id="dropBox3" class="dropBox" 
+         ondrop="droppoint(event)" 
+         ondragover="allowDropOption(event)">
+      3. Myth - All homeless people are violent and dangerous.
+    </div>
+
+    <div id="dropBox4" class="dropBox" 
+         ondrop="droppoint(event)" 
+         ondragover="allowDropOption(event)">
+      4. Myth - Most homeless people choose to be homeless and they enjoy that lifestyle.
+    </div>
+
+    <div id="dropBox5" class="dropBox" 
+         ondrop="droppoint(event)" 
+         ondragover="allowDropOption(event)">
+      5. Myth - All homeless people are alcoholics and drug users.
+    </div>
+
+  </div>
+
+  <div class="flex-facts">
+
+    <!-- Facts Draggable Items on Myths Page -->
+    <div id="fact1" class="fact" draggable="true"
+         ondragstart="dragpoint(event)">
+      (a) Fact - A homeless person is less likely to perpetrate a violent crime than a housed person, and is more likely to be the victim of a violent crime, especially if they are a homeless woman, teen, or child.
+    </div>
+    
+    <div id="fact2" class="fact" draggable="true" 
+         ondragstart="dragpoint(event)">
+      (b) Fact - Around 32% of homeless people suffer from addiction to drugs and alcohol. Research also shows that substance abuse is often a result of homelessness, rather than a cause.
+    </div>
+    
+    <div id="fact3" class="fact" draggable="true" 
+         ondragstart="dragpoint(event)">
+      (c) Fact - As many as 44% of homeless people work and live in their cars, emergency shelters, and outside. There is no state in the U.S. where a minimum wage worker working full time can afford a one-bedroom apartment at the fair market rent.
+    </div>
+    
+    <div id="fact4" class="fact" draggable="true" 
+         ondragstart="dragpoint(event)">
+      (d) Fact - Living on the streets makes homeless people more likely to become the victims of violence, including murder, assault, rape, and theft, as well as hate crimes.
+    </div>
+    
+    <div id="fact5" class="fact" draggable="true" 
+         ondragstart="dragpoint(event)">
+      (e) Fact - It has been proven that Housing First and Rapid Rehousing programs, which provide access to housing without requiring participants to use other services such as mental and physical health care, addiction treatment, education and employment options, have been successful in combating homelessness. 
+    </div>
+    
+  </div>
+
+  <span>
+    <div class="phone-text" id="write-pairings">
+      <p>Write down your pairings here:</p>
+      <label for="name">1. </label>
+      <input type="text" id="myText"><br>
+      <label for="name">2. </label>
+      <input type="text" id="myText"><br>
+      <label for="name">3. </label>
+      <input type="text" id="myText"><br>
+      <label for="name">4. </label>
+      <input type="text" id="myText"><br>
+      <label for="name">5. </label>
+      <input type="text" id="myText"><br>
+    </div>
+    <br>
+  </span>
+
+  <!-- Myth Button on Myths Page -->
+  <button id="mythButton">Click to reveal the correct pairings</button>
+
+  <!-- Myths and Facts Pairings on Myths Page -->
+  <div class="myth-display">
+    <p id="mythFact"></p>
+  </div>
+  
+</main>
+  
+</body>
+</html>
