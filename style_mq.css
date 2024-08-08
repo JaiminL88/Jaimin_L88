@@ -1,0 +1,406 @@
+/* Media Query for Phones */
+@media only screen and (max-width: 768px) {
+  /*General elements */
+  h1 {
+    font-size: 2.3em;
+    margin-top: 20px;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+  }
+
+  h2 {
+    font-size: 1.3em;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+  }
+
+  label {
+    font-size: 1em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+  nav {
+     text-align: center;
+  }
+
+  nav ul {
+    padding: 1em 0.5em;
+  }
+
+  nav ul li a {
+    font-size: 1em;
+  }
+
+  /* Home page */
+  .home-imgs {
+    padding: 20px 0;
+  }
+
+  .home-imgs-slide img {
+    height: 250px;
+    margin: 0 20px;
+    width: 300px;
+  }
+
+  .flex-container {
+    flex-direction: column;
+  }
+  
+  .flex-item {
+    margin: 1.5%;
+    padding: 2% 1.5%;
+  }
+
+  input[type=text] {
+    font-size: 0.8em;
+  }
+
+  #myButton {
+    font-size: 1em; 
+  }
+
+  .stat-container {
+    padding: 2% 3%;
+  }
+
+  #stat {
+    font-size: 1.1em;
+  }
+
+  #statButton {
+    font-size: 1em;
+  }
+
+  .underReference {
+    font-size: 0.8em; 
+    margin-bottom: 4%
+  }
+
+  /* Myths Page */
+  .phone-text { display: inline-block; }
+  .pc-text { display: none; }
+  
+  .flex-facts{
+    flex-direction: column;
+  }
+
+  .fact {
+    margin: 1.5%;
+    padding: 2% 1.5%;
+  }
+
+  .dropBox {
+    margin: 1.5%;
+    padding: 2% 1.5%;
+  }
+
+  .dropBoxesContainer {
+    flex-direction: column;
+  }
+
+  #write-pairings {
+    margin: 1.5%;
+    padding: 2% 3%;
+    background: #eea69b;
+    border-radius: 10px;
+  }
+
+  #mythButton {
+    margin: 1.5%;
+    margin-bottom: 3%;
+    font-size: 1em;
+  }
+
+  #mythUnder {
+    font-size: 0.8em;
+  }
+
+  /* Take Action Page */
+  #actionPicture {
+    height: 245px;
+    width: 350px;
+  }
+
+  .hover-change {
+    font-size: 1em;
+  }
+  
+  .action-container {
+    flex-direction: column;
+  }
+
+  .action-item {
+    margin: 1.5%;
+    padding: 2% 1.5%
+  }
+
+  #actionIntro {
+    margin: 1.5%;
+    padding: 2% 1.5%;
+    font-size: 1em;
+  }
+
+  #action-text {
+    padding: 2%;
+    margin: 0% 3%;
+    margin-bottom: 1.5%;
+  }
+
+  #hover-instructions {
+    font-size: 0.8em;
+  }
+
+  #actionBR {
+    display: none;
+  }
+
+  footer {
+    margin: 1.5% 15%;
+    padding: 2%;
+  }
+
+  #footerText {
+    font-size: 1em;
+    margin-bottom: 2%;
+  }
+
+  /* About Page */
+  #about-me {
+    margin: 1.5%;
+    padding: 2% 1.5%;
+    font-size: 1em;
+  }
+
+  .resources-list {
+    margin: 1.5% 8%;
+    margin-bottom: 3%;
+    padding: 2% 6%;
+    font-size: 1em;
+  }
+
+  #ending {
+    margin: 1.5% 15%;
+    margin-bottom: 3%;
+    padding: 2%;
+    font-size: 1em;
+  }
+}
+
+/* Media Query for Tablets */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  /*General elements */
+  h1 {
+    font-size: 2.3em;
+    margin-top: 20px;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+  }
+
+  h2 {
+    font-size: 1.3em;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+  }
+
+  label {
+    font-size: 1em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+  nav ul {
+    padding: 1em 0.5em;
+  }
+
+  nav ul li a {
+    font-size: 1em;
+  }
+
+  /* Home page */
+  .home-imgs {
+    padding: 20px 0;
+  }
+
+  .home-imgs-slide img {
+    height: 250px;
+    margin: 0 20px;
+    width: 300px;
+  }
+
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .flex-item {
+    margin: 1.5%;
+    padding: 2% 1.5%;
+  }
+
+  input[type=text] {
+    font-size: 0.8em;
+  }
+
+  #myButton {
+    font-size: 1em; 
+  }
+  
+  .radio-option {
+    margin-left: 38%;
+  }
+
+  .stat-container {
+    padding: 2% 3%;
+  }
+
+  #stat {
+    font-size: 1.1em;
+  }
+
+  #statButton {
+    font-size: 1em;
+  }
+
+  .underReference {
+    font-size: 0.8em; 
+    margin-bottom: 4%
+  }
+
+  /* Myths Page */
+  .phone-text { display: inline-block; }
+  .pc-text { display: none; }
+  
+  .flex-facts{
+    flex-direction: column;
+  }
+
+  .fact {
+    margin: 1.5%;
+    padding: 2% 1.5%;
+  }
+
+  .dropBox {
+    margin: 1.5%;
+    padding: 2% 1.5%;
+  }
+
+  .dropBoxesContainer {
+    flex-direction: column;
+  }
+
+  #write-pairings {
+    margin: 1.5%;
+    padding: 2% 3%;
+    background: #eea69b;
+    border-radius: 10px;
+  }
+
+  #mythButton {
+    margin: 1.5%;
+    margin-bottom: 3%;
+    font-size: 1em;
+  }
+
+  #mythUnder {
+    font-size: 0.8em;
+  }
+
+  /* Take Action Page */
+  #actionPicture {
+    height: 350px;
+    width: 575px;
+  }
+
+  .hover-change {
+    font-size: 1em;
+  }
+
+  .action-container {
+    flex-direction: column;
+  }
+
+  .action-item {
+    margin: 1.5%;
+    padding: 0.8%
+  }
+
+  #actionIntro {
+    margin: 1.5%;
+    padding: 2% 1.5%;
+    font-size: 1em;
+  }
+
+  #action-text {
+    padding: 2%;
+    margin: 0% 3%;
+    margin-bottom: 1.5%;
+  }
+
+  #hover-instructions {
+    font-size: 0.8em;
+  }
+
+  #actionBR {
+    display: none;
+  }
+
+  footer {
+    margin: 1.5% 15%;
+    padding: 2%;
+  }
+
+  #footerText {
+    font-size: 1em;
+    margin-bottom: 2%;
+  }
+
+  /* About Page */
+  #about-me {
+    margin: 1.5%;
+    padding: 2% 1.5%;
+    font-size: 1em;
+  }
+
+  .resources-list {
+    margin: 1.5% 8%;
+    margin-bottom: 3%;
+    padding: 2% 15%;
+    font-size: 1em;
+  }
+
+  #ending {
+    margin: 1.5% 15%;
+    margin-bottom: 3%;
+    padding: 2%;
+    font-size: 1em;
+  }
+}
+
+/* Media Query for Smaller Laptops */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  /* General elements */
+  label {
+    font-size: 1.15em;
+  }
+
+  /* Home Page */
+  .home-imgs-slide img {
+    width: 800px;
+  }
+
+  #myButton {
+    font-size: 1.15em; 
+  }
+
+  /* Take Action Page */
+  .hover-change {
+    font-size: 1.4em;
+  }
+
+  
+  
+  
