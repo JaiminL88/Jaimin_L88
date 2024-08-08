@@ -1,0 +1,37 @@
+/* STYLE RADIO BUTTONS ON HOME-PAGE SURVEY */
+input[type="radio"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #f3e2c4;
+  margin: 0;
+  width: 1.15em;
+  height: 1.15em;
+  border: 2px dotted #a26d0b;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  transition: background-color 0.3s, border 0.3s;
+}
+
+input[type="radio"]:hover {
+  background-color: #c5cbe3;
+}
+
+/* STYLE THE INNER DOT OF THE RADIO BUTTON */
+input[type="radio"]:checked::after {
+  content: "";
+  display: block;
+  width: 0.6em;
+  height: 0.6em;
+  border-radius: 50%;
+  background: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* STYLE FOR RADIO BUTTON WHEN SELECTED */
+input[type="radio"]:checked {
+  background-color: #4056a1;
+  border: 2px solid #4056a1;
