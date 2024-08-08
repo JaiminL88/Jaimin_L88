@@ -1,0 +1,22 @@
+/* STYLE STATISTICS BUTTON ON HOME PAGE */
+#statButton {
+  background-color: #f3b43f;
+  padding: 6px;
+  margin-bottom: 8px;
+  font-size: 1.25em;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  font-family: "Syne", sans-serif;
+  box-shadow: 0 5px #ad812e;
+  color: black;
+}
+
+#statButton:hover {
+  background-color: #e5cb99;
+}
+
+#statButton:active {
+  box-shadow: 0 2px #ad812e;
+  transform: translateY(4px);
