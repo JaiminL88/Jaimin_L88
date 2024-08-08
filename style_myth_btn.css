@@ -1,0 +1,22 @@
+/* STYLE MYTH-FACT BUTTON ON MYTHS PAGE */
+#mythButton {
+  background-color: #ec5841;
+  padding: 6px;
+  margin-bottom: 8px;
+  font-size: 1.25em;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  font-family: "Syne", sans-serif;
+  box-shadow: 0 5px #a53c2c;
+  color: black;
+}
+
+#mythButton:hover {
+  background-color: #f78e7e;
+}
+
+#mythButton:active {
+  box-shadow: 0 2px #a53c2c;
+  transform: translateY(4px);
