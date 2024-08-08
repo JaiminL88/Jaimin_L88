@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Activist Toolkit - JAIMIN</title>
+    <meta charset="utf-8" />
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	  <!-- Link the webpage's stylesheet -->
+	  <link rel="stylesheet" href="/style_general.css" />
+    <link rel="stylesheet" href="/style_radio_btns.css" />
+    <link rel="stylesheet" href="/style_msg_btn.css" />
+    <link rel="stylesheet" href="/style_stat_btn.css" />
+    <link rel="stylesheet" href="/style_mq.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap" rel="stylesheet">
+
+	  <!-- Link the webpage's JavaScript file -->
+	  <script src="/script_home.js" defer></script>
+
+  </head>
+  
+<body> 
+  
+  <header>
+
+    <!-- Navigation Bar of Home Page -->
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="myths.html">Myths</a>
+        </li>
+        <li>
+          <a href="take-action.html">Take Action</a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Title of Home Page -->
+    <h1>Homelessness in America. It’s everywhere.</h1>
+
+    <!-- Sliding Images on the Home Page -->
+    <div class="home-imgs">
+      <div class="home-imgs-slide">
+        <img src="assets/Homeless Once I Was Like You.jpg"
+             alt="A gray picture of a homeless person sitting on the ground begging for money, with a sign saying 'Once I was like you' in front of them."/>
+        <img src="assets/Homeless Purple Gloves.jpg"
+             alt="A homeless person's hand is shown holding a cardboard sign and wearing purple gloves with a lot of holes."/>
+        <img src="assets/Homeless on Bench.jpg"
+             alt="A homeless person sleeping on a stone bench in a city environment with scaffolding behind them."/>
+        <img src="assets/Homeless with Cart.jpg"
+             alt="A homeless person crouching in a station with all their belongings around them, including bags and umbrellas in shopping cart."/>
+      </div>
+
+      <div class="home-imgs-slide">
+        <img src="assets/Homeless Once I Was Like You.jpg"
+             alt="A gray picture of a homeless person sitting on the ground begging for money, with a sign saying 'Once I was like you' in front of them."/>
+        <img src="assets/Homeless Purple Gloves.jpg"
+             alt="A homeless person's hand is shown holding a cardboard sign and wearing purple gloves with a lot of holes."/>
+        <img src="assets/Homeless on Bench.jpg"
+             alt="A homeless person sleeping on a stone bench in a city environment with scaffolding behind them."/>
+        <img src="assets/Homeless with Cart.jpg"
+             alt="A homeless person crouching in a station with all their belongings around them, including bags and umbrellas in shopping cart."/>
+      </div>
+    </div>
+    
+  </header>  
+
+<main>
+
+  <!-- Subheading #1 of Home Page -->
+  <h2>Let's get to know you.</h2>
+
+  <div class="flex-container">
+    
+  <!-- Text Input Field on Home Page -->
+    <div class="flex-item" id="name-item">
+      <label for="name">What's your name?</label>
+      <br>
+      <input type="text" id="myText"><br>
+    </div>
+
+    <div class="flex-item" id="choice-item">
+
+  <!-- Radio Buttons Input Field on Home Page -->
+      <label for="choices">How much do you know about this issue?</label>
+      <br>
+      
+      <div class="radio-container">  
+        
+        <div class="radio-option">
+          <input type="radio" id="most" name="choice-type" 
+                 value="Very knowledgeable">
+          <label for="most">Very knowledgeable</label>
+        </div>
+        
+        <div class="radio-option">
+          <input type="radio" id="somewhat" name="choice-type" 
+                 value="Somewhat knowledgeable">
+          <label for="somewhat">Somewhat knowledgeable</label>
+        </div>
+        
+        <div class="radio-option">
+          <input type="radio" id="little" name="choice-type" 
+                 value="Little to no knowledge">
+          <label for="little">Little to no knowledge</label>
+        </div>
+        
+      </div>
+      
+    </div>
+
+  <!-- Message Button on Home Page -->
+    <div class="flex-item" id="message-item">
+      <button id="myButton">Click to see message</button>
+      <p id="results"></p>
+    </div>
+    
+  </div>
+
+  <!-- Subheading #2 of Home Page -->
+  <header>
+    <h2>Let's get the stats.</h2>
+  </header>
+
+  <!-- Fact Generator on Home Page -->
+  <div class="stat-container">
+    <button id="statButton">Click to reveal a new statistic</button>
+    <p id="stat">According to the January 2022 PIT Count, 582,462 people were experiencing homelessness across America, which is about 18 out of every 10,000 people</p>
+  </div>
+
+  <!-- Link Reference on Home Page -->
+  <p class="underReference">» Facts from the <a href="https://endhomelessness.org/homelessness-in-america/homelessness-statistics/state-of-homelessness" target="_blank" rel="noopener noreferrer">National Alliance to End Homelessness</a> «</p>
+  
+</main>
+    
+</body>
+</html>
