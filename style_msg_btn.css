@@ -1,0 +1,22 @@
+/* STYLE MESSAGE BUTTON ON HOME PAGE */
+#myButton {
+  background-color: #7386c4;
+  padding: 6px;
+  margin-bottom: 8px;
+  font-size: 1.25em;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  font-family: "Syne", sans-serif;
+  box-shadow: 0 5px #4c577b;
+  color: black;
+}
+
+#myButton:hover {
+  background-color: #93a0d2
+}
+
+#myButton:active {
+  box-shadow: 0 2px #4c577b;
+  transform: translateY(4px);
